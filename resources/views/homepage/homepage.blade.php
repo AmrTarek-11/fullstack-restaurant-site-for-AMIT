@@ -1,0 +1,5 @@
+@include('layouts.partials.header')
+@include('layouts.partials.homepartials.homefirst')
+@include('layouts.partials.homepartials.homesecond')
+@include('layouts.partials.homepartials.homethird')
+@include('layouts.partials.footer')

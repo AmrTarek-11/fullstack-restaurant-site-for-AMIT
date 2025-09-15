@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sectionn {
+    /* background-color: red; */
+    width: 100%;
+    min-height: 700px;
+}
+.heading {    max-width: 400px ; 
+    height: 61px;
+/* background-color: aqua; */
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+  
+    text-align: center;
+
+    /* Neutral/07 */
+    color: #2c2f24;
+}
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: peru; */
+   min-height: 600px;
+
+}
+.down {
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   min-height: 500px;
+    width: 90%;
+    flex-wrap: wrap;
+    gap: 10px;}
+
+.one{
+    width: 30%;
+    /* background-color: red; */
+   min-height: 270px;
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    /* min-height: 400px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column; 
+}
+.one h1, .two h1, .three h1 {
+font-size: 20px;
+}
+.two {
+    width: 33%;
+    /* min-height: 400px; */
+    min-height: 270px;
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column; 
+    /* background-color: green; */
+}
+.three {
+    width: 33%;
+    min-height:270px;
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+
+    /* background-color: blue; */
+    /* min-height: 400px; */
+display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column; 
+}
+
+.one:hover, .two:hover, .three:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}

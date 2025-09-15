@@ -1,0 +1,138 @@
+.footer-page * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer-page {
+    background-color: #474747;
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.footer-page-container {
+    min-height:400px;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-page-up {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start; 
+    gap: 10px;
+}
+
+.footer-page-down {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer-page-one {
+    width: 400px;
+    min-height: 200px;
+}
+
+.footer-page-bistroword {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    color: #fff;
+    font-size: 35px;
+}
+
+#bistro {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-page-oneup {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-page-onemiddle {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: larger;
+    margin-top: 20px;
+    min-height: 60px;
+}
+
+.footer-page-onedown {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer-page-two {
+    width: 400px;
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #ddd;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #fff;
+}
+
+.footer-page-three {
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-page-imagecontainer {
+    min-width: 290px;
+    min-height: 250px;
+    display: grid;
+    gap: 3px;
+    grid-template-columns: repeat(2, minmax(130px, 1fr));
+    grid-template-rows: repeat(2, minmax(50px, 1fr));
+}
+
+.footer-page-imagecontainer img {
+    width: 130px;
+    min-height: 120px;
+    object-fit: cover;
+}
+
+/* media query for footer */
+@media (max-width: 755px) {
+    .footer-page-imagecontainer {
+        grid-template-columns: repeat(1, minmax(100px, 1fr));
+        min-width: 132px;
+    }
+}

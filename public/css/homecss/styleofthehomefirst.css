@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    width: 100%;
+    min-height: 700px;
+    /* background-color:red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../images/home1.png);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    position: relative;
+}
+.center {
+    max-width: 600px;
+    min-height: 400px;
+    /* background-color: blue; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.center1 {
+    /* background-color: red; */
+    width: 100%;
+    min-height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: #8cb61b89 4px 1px 2px;
+}
+.center2 {
+    /* background-color: yellow; */
+    width: 95%;
+    min-height: 60px;
+    display: flex;
+    color: rgba(0, 0, 0, 0.863);
+
+    font-weight: 700;
+    text-shadow: #2c2f2489 1px 1px 2px;
+    justify-content: center;
+    align-items: center;
+}
+.center3 {
+    /* background-color: green;     */
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center1 h1 {
+    width: 250px;
+    height: 70px;
+
+    /* Headline/H1 */
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+
+    /* or 96% */
+    text-align: center;
+
+    /* Neutral/07 */
+    color: #2c2f24;
+}
+
+.center3 button {
+    /* Button */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+    height: 60px;
+
+    border: 1.5px solid #2c2f24;
+    border-radius: 118px;
+}
+.center3 button:hover {
+    background-color: #ad343e;
+    color: white;
+    cursor: pointer;
+}
